@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="29">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset2" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <layer id="1" name="background" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACs1YMXYTQQzdt3MPOzkCONSQIl73hIIhBTXwEhdQw3tQcIV0HCUlh6JgBq/w329pRkqVQm/tWa30pZG+dmc9DA/34/D+Kcp6+Hd92I3DILItMtHvKrnIapZtR/Is1cZ+vp7P93bK1fJ7f5D/+LKhu6X1syLPi2yKXMyY17AutqrunYERY7D8Mr4VSPX3B+zgcxdkC7FiTnaA+6bIC4h3Ah3Lr+Dj/GjP43Oyhx/TMHwq8i0d9fO4xIe2M4jgafkVfLzveM3kC0X2ruq8m3N0S3tn7a9Wb+xXy5/Elcd2vJp8SMu9moz9RVwtv4Ivj6dxoQ+O18onivQ95hlziLVi+eX+YE7hmohyhzyr5VD63vK7J3zMJ4KNeyPCHdnQwZxafs8IX117nQ66b9Lh/vm4rD3hNi93rBo6sm75xf5lLpDfv+fnuJ693NGbM9YcqX5vxmX/ToDD6nvm/R53CAbhHrnuyK7mF+eH1gesKxLhjl7een41/tPmtVbDHu6oa5dpuf/I+T2/Wv9qsb8sPl6loy+Mu8UdK/Kt1W7LL/evPIPvBbJ+nZY2PNxRf28MfIxJ88v9wXnWZgLWYY87ar43ih0vx2N/WHnW1iIzBGNCHx6Ox/1l++yD170zxOpdD8e38Gl7rHG05/1Ty7uH4wVfb4Zmw7ZnhrA+22pxvOBrxc+5mAL2ua5FvBzP/GLN0C/ALdcpPkO0/vNwfGt/0c9dwbSfOfoxM4TvRfmlFf/ngul7kR/pkLsMOp4ZovV4lF9a8f9MpzFHZojW41F+acXf+j7yzJAIl3v5Rasp/K9xriURLo/wC+YlkgOxo/Ffj8t7/MI8jz4eM8+079Eel2v8wjZa37y9HDC+CJdz/XvPryI5kLMi7CEvl3P9R86vIt9E+E4V4XKu/8j5lTcHclbE+Dxczr3vPb+K5OB2XL7fR7j8Gel4z68iOUDORnweLr8iHe/5VSQHuKeX6XTPWvJ2PJ7D8vmQ9u7Dde49T7Hk6/y9ZL33s27Ftx6GX+X6JKVgG/4CQS2S2AAZAAA=
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3OQQ0AIAzAwBGMIhUdM4ANMMCrD0bSJv1f9ogsftVW00fSx9LH0sfSx9LH0sfSx9LH0sfSx9LH+sF3nq8dt/Sx9LH0sfSx9LE+8Y3CxwZ1IlDFABkAAA==
+  </data>
+ </layer>
+ <objectgroup id="3" name="actors">
+  <object id="2" name="alien" type="waiting1" x="192" y="32" width="32" height="32"/>
+  <object id="3" name="front door" type="vertical" x="368" y="32" width="16" height="32"/>
+  <object id="4" name="back door" type="horizontal" x="192" y="112" width="32" height="16"/>
+  <object id="5" name="alien" type="running" x="416" y="32" width="32" height="32"/>
+  <object id="6" name="alien" type="waiting1" x="240" y="32" width="32" height="32"/>
+  <object id="7" name="alien" type="waiting1" x="288" y="32" width="32" height="32"/>
+  <object id="8" name="alien" type="waiting1" x="192" y="80" width="32" height="32"/>
+  <object id="9" name="alien" type="waiting1" x="240" y="80" width="32" height="32"/>
+  <object id="10" name="alien" type="waiting1" x="288" y="80" width="32" height="32"/>
+  <object id="11" name="alien" type="waiting1" x="336" y="32" width="32" height="32"/>
+  <object id="12" name="alien" type="waiting1" x="336" y="80" width="32" height="32"/>
+  <object id="13" name="ammo" x="400" y="144" width="16" height="16"/>
+  <object id="14" name="ammo" x="48" y="64" width="16" height="16"/>
+  <object id="15" name="energy" x="224" y="64" width="16" height="16"/>
+  <object id="16" name="exit door" type="vertical" x="0" y="320" width="16" height="32"/>
+  <object id="17" name="alien mother" type="waiting2" x="112" y="224" width="78" height="127"/>
+  <object id="18" name="alien" type="waiting2" x="304" y="416" width="32" height="32"/>
+  <object id="19" name="energy" x="416" y="432" width="16" height="16"/>
+  <object id="25" name="alien" type="waiting2" x="336" y="304" width="32" height="32"/>
+  <object id="26" name="ellen" type="ripley" x="576" y="48" width="32" height="32"/>
+ </objectgroup>
+</map>
